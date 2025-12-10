@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "Input Actions",
+    "maps": [
+        {
+            "name": "XRControls",
+            "id": "d97c9a6d-c05e-4a07-8163-29e075397a13",
+            "actions": [
+                {
+                    "name": "left",
+                    "type": "Value",
+                    "id": "0f00a052-4e62-44fb-8268-e95fd49ec5a7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "right",
+                    "type": "Value",
+                    "id": "1996ee72-0924-45e6-ac8f-cf0070f84f36",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "50b44e44-3ef7-4371-ad37-44d57c72567c",
+                    "path": "<XRController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b0b5354-6178-4ce6-a653-fd041eb259e2",
+                    "path": "<XRController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
